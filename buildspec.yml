@@ -13,7 +13,7 @@ phases:
       - npm install -g @angular/cli
   build:
     commands:
-      - echo Build started on `date`
+      - echo Build is started on `date`
       - ng build 
   post_build:
      commands:
