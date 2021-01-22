@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 on conflicts
-=======
 added on remote repo
->>>>>>> eb05d6879b86eb7060374972514d6cd68f86854d
