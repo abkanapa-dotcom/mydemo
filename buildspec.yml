@@ -1,7 +1,7 @@
 version: 0.2
 env:
   variables:
-    S3_BUCKET: "codedeployangular"
+    S3_BUCKET: "mydemoversions"
 phases:
   install:
     runtime-versions:
