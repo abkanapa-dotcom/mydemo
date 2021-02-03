@@ -1,7 +1,7 @@
 version: 0.2
 env:
   variables:
-    S3_BUCKET: "mydemoversions"
+    S3_BUCKET: "mydmo-webpage"
 phases:
   install:
     runtime-versions:
@@ -17,7 +17,7 @@ phases:
       - ng build 
   post_build:
      commands:
-      - aws s3 cp dist s3://mydemoversions/ --recursive
+      - aws s3 cp dist s3://mydmo-webpage/ --recursive
       - echo Build completed on `date`
 artifacts:
   files:
